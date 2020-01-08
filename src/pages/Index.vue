@@ -1,33 +1,57 @@
 <template>
   <Layout>
-
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
-
+    <div class="home-wrap-main">
+      <div class="home-inner">
+        <g-image src="~/assets/img/home-big-logo.png" />
+        <h1>
+          at in tellus integer feugiat scelerisque
+          <br />varius morbi enim nunc faucibus a
+        </h1>
+      </div>
+    </div>
   </Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: "Hello, world!"
   }
-}
+};
 </script>
 
-<style>
-.home-links a {
-  margin-right: 1rem;
+<style lang="scss">
+.home-wrap-main {
+  height: calc(100vh - 190px);
+  @media only screen and (max-width: 1024px) {
+      height: auto;
+    }
+  .home-inner {
+    text-align: center;
+    transform: translateY(-50%);
+    top: 50%;
+    position: relative;
+    @media only screen and (max-width: 768px) {
+      padding: 0 45px;
+      left: 0;
+      transform: none;
+      h1{ 
+        font-size: 25px;
+      }
+    }
+    img {
+      width: 26%;
+      display: block;
+      transform: translateX(-50%);
+      left: 50%;
+      position: relative;
+      margin-bottom: 50px;
+      @media only screen and (max-width: 768px) {
+        width: 100%;
+        left: 0;
+        transform: none;
+      }
+    }
+  }
 }
 </style>
