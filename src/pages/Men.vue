@@ -6,15 +6,15 @@
       </div>
       <div class="models-list">
         <div class="model">
-          <g-image src="~/assets/img/model.jpg" />
-          <h4>Model Name</h4>
+          <g-image src="~/assets/img/juliano-profilna-c.jpg" />
+          <h4>Juliano</h4>
         </div>
         <div class="model">
-          <g-image src="~/assets/img/model.jpg" />
-          <h4>Model Name</h4>
+          <g-image src="~/assets/img/sale-profilna-c.jpg" />
+          <h4>Sasa</h4>
         </div>
         <div class="model">
-          <g-image src="~/assets/img/model.jpg" />
+          <g-image src="~/assets/img/juliano-profilna-c.jpg" />
           <h4>Model Name</h4>
         </div>
         <div class="model">
@@ -52,6 +52,10 @@
   .hero-section {
     text-align: right;
     padding: 40px 0;
+    @media only screen and (max-width: 600px){
+          text-align: center;
+          padding: 25px 0;
+      }
     h1 {
       font-size: 55px;
       line-height: 1.4em;
@@ -76,6 +80,7 @@
       }
       img {
         border-radius: 50%;
+        border: 3px solid #000;
       }
     }
   }

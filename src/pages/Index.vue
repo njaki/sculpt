@@ -1,11 +1,10 @@
 <template>
-  <Layout>
+  <Layout class="home">
     <div class="home-wrap-main">
       <div class="home-inner">
         <g-image src="~/assets/img/home-big-logo.png" />
         <h1>
-          at in tellus integer feugiat scelerisque
-          <br />varius morbi enim nunc faucibus a
+          international models <br>scouting agency 
         </h1>
       </div>
     </div>
@@ -21,6 +20,20 @@ export default {
 </script>
 
 <style lang="scss">
+.home {
+  header {
+    .sh-logo {
+      img {
+        display: none;
+      }
+    }
+    .sh-header-wrap .sh-menu-wrap {
+      width: 100%;
+      text-align: center;
+      margin-right: 0;
+    }
+  }
+}
 .home-wrap-main {
   height: calc(100vh - 190px);
   @media only screen and (max-width: 1024px) {

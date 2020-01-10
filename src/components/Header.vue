@@ -11,18 +11,19 @@
         <g-link to="/men">men</g-link>
         <g-link>women</g-link>
         <g-link>plus size</g-link>
-        <g-link>news</g-link>
+        <g-link to="/become-model">become model</g-link>
       </div>
       <div class="sc-mobile-opener" v-on:click="menuClick">
+        <span>menu</span>
         <g-image class="menu-opener" src="~/assets/img/menu-opener.svg" width="50" />
       </div>
     </div>
     <div class="mobile-menu">
       <g-link to="/about-us">/ about us /</g-link>
       <g-link to="/men">/ men /</g-link>
-      <g-link>/ women /</g-link>
-      <g-link>/ plus size /</g-link>
-      <g-link>/ news /</g-link>
+      <g-link to="/women">/ women /</g-link>
+      <g-link to="/plus-size">/ plus size /</g-link>
+      <g-link to="/become-model">/ become model /</g-link>
     </div>
   </header>
 </template>
@@ -72,6 +73,10 @@ header {
     @media only screen and (max-width: 768px) {
       display: block;
     }
+    img {
+      position: relative;
+      top: -7px;
+    }
   }
   .sh-header-wrap {
     height: 140px;
@@ -118,12 +123,11 @@ header {
 
     .menu-opener {
       margin: 0 68px 0 30px;
-      top: 5px;
       position: relative;
       @media only screen and (max-width: 600px) {
         margin: 0 22px 0 8px;
-        height: 11px;
-        top: 2px;
+        height: 17px;
+        top: 3px;
       }
     }
   }

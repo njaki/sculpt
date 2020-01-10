@@ -1,7 +1,7 @@
 <template>
 <footer>
     <div class="footer-inner">
-        <span class="copy">Copyright sclupt.  </span>
+        <span class="copy">Copyright sculpt.  </span>
         <span> | About Us |</span>
         <span> Men |</span>
         <span> Women |</span>
