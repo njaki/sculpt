@@ -32,17 +32,16 @@ export default {
 
 <style lang="scss">
 .about-wrap-main {
-  height: calc(100vh - 190px);
+
   @media only screen and (max-width: 1024px) {
     height: auto;
   }
   h1 {
     margin-top: 0;
+    
   }
   .about-inner {
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     @media only screen and (max-width: 600px) {
       top: inherit;
       transform: none;

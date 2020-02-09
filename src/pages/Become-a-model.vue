@@ -61,7 +61,7 @@
             <label>Hips</label>
             <input type="text" name="hips" />
           </div>
-
+          <p style="margin-top: 30px;">4 photos, up to 1mb per photo</p>
           <input class="add-image" type="file" name="file" />
           <button class="bcm-btn" type="submit">Send</button>
         </form>
@@ -138,6 +138,7 @@
       border: 1px solid #000;
       background-color: #fff;
       padding: 10px 40px;
+      margin-bottom: 50px;
     }
   }
 }

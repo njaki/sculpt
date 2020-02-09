@@ -6,6 +6,8 @@
         <h1>
           international models <br>scouting agency 
         </h1>
+        <h2>News</h2>
+        <p>Agencija Sculpt trenutno traži nova lica na teritoriji Srbije. <br>Informacije o kastinzima će uskoro biti objavljene.</p>
       </div>
     </div>
   </Layout>
@@ -14,7 +16,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Hello, world!"
+    title: "international models scouting agency"
   }
 };
 </script>
@@ -22,6 +24,7 @@ export default {
 <style lang="scss">
 .home {
   header {
+    position: relative;
     .sh-logo {
       img {
         display: none;
@@ -35,14 +38,12 @@ export default {
   }
 }
 .home-wrap-main {
-  height: calc(100vh - 190px);
+  margin-top: 60px;
   @media only screen and (max-width: 1024px) {
       height: auto;
     }
   .home-inner {
     text-align: center;
-    transform: translateY(-50%);
-    top: 50%;
     position: relative;
     @media only screen and (max-width: 768px) {
       padding: 0 45px;
@@ -51,6 +52,10 @@ export default {
       h1{ 
         font-size: 25px;
       }
+    }
+    p{
+      margin: 50px 0;
+      padding: 0 15%;
     }
     img {
       width: 26%;

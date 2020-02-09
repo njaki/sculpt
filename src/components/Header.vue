@@ -9,9 +9,9 @@
       <div class="sh-menu-wrap">
         <g-link to="/about-us">about us</g-link>
         <g-link to="/men">men</g-link>
-        <g-link>women</g-link>
+        <g-link to="/women">women</g-link>
         <g-link>plus size</g-link>
-        <g-link to="/become-model">become model</g-link>
+        <g-link to="/become-a-model">become a model</g-link>
       </div>
       <div class="sc-mobile-opener" v-on:click="menuClick">
         <span>menu</span>

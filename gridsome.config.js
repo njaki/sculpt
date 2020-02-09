@@ -17,6 +17,6 @@ function addStyleResource (rule) {
 }
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Sculpt',
   plugins: []
 }

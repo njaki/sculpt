@@ -2,28 +2,23 @@
   <Layout>
     <div class="models-wrapper">
       <div class="hero-section">
-        <h1>models / men</h1>
+        <h1>models / women</h1>
       </div>
       <div class="models-list">
         <div class="model">
-          <g-link to="/Juliano"/>
-          <g-image src="~/assets/img/juliano-profilna-c.jpg" />
-          <h4>Juliano</h4>
+            <g-link to="/Mira"/>
+          <g-image src="~/assets/img/mira-profilna-c.jpg" />
+          <h4>Mira</h4>
         </div>
         <div class="model">
-          <g-link to="/Sasa"/>
-          <g-image src="~/assets/img/sale-profilna-c.jpg" />
-          <h4>Sasa</h4>
+            <g-link to="/Mari"/>
+          <g-image src="~/assets/img/mari-profilna-c.jpg" />
+          <h4>Mari</h4>
         </div>
         <div class="model">
-          <g-link to="/Maxim"/>
-          <g-image src="~/assets/img/maxim-profilna-c.jpg" />
-          <h4>Maxim</h4>
-        </div>
-        <div class="model">
-          <g-link to="/Zarko"/>
-          <g-image src="~/assets/img/zarko-profilna-c.jpg" />
-          <h4>Zarko</h4>
+            <g-link to="/Barbara"/>
+          <g-image src="~/assets/img/barbara-profilna-c.jpg" />
+          <h4>Barbara</h4>
         </div>
       </div>
     </div>
@@ -52,23 +47,23 @@
     text-align: center;
     flex-wrap: wrap;
     .model {
-      position: relative;
       padding: 15px;
       width: 25%;
       display: flex;
       flex-direction: column;
+      position: relative;
+      a{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+      }
       @media only screen and (max-width: 768px) {
         width: 50%;
       }
       @media only screen and (max-width: 600px) {
         width: 100%;
-      }
-      a{
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top:0;
-        left:0;
       }
       img {
         border-radius: 50%;
