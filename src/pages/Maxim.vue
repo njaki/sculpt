@@ -3,7 +3,7 @@
     <div class="models-wrap clearfix">
       <div class="models-gallery">
         <ClientOnly>
-          <agile ref="main" class="main-slide" :fade="true"  :navButtons="true" :dots="false">
+          <agile ref="main" class="main-slide" :fade="true" :navButtons="true" :dots="false">
             <div class="slide">
               <g-image src="~/assets/img/maxim/1.jpg" />
             </div>
@@ -78,13 +78,27 @@
       </div>
       <div class="models-info">
         <h2>Maxim</h2>
-        <p><span>HEIGHT:</span>187 </p>
-        <p><span>CHEST:</span>102 </p>
-        <p><span>WAIST:</span>82 </p>
-        <p><span>HIPS:</span>100 </p>
-        <p><span>SHOES:</span>44 </p>
-        <p><span>HAIR:</span>Blonde </p>
-        <p><span>EYES:</span>Blue </p>
+        <p>
+          <span>HEIGHT:</span>187
+        </p>
+        <p>
+          <span>CHEST:</span>102
+        </p>
+        <p>
+          <span>WAIST:</span>82
+        </p>
+        <p>
+          <span>HIPS:</span>100
+        </p>
+        <p>
+          <span>SHOES:</span>44
+        </p>
+        <p>
+          <span>HAIR:</span>Blonde
+        </p>
+        <p>
+          <span>EYES:</span>Blue
+        </p>
       </div>
     </div>
   </Layout>
@@ -105,6 +119,10 @@ export default {
   .models-gallery {
     width: 70%;
     float: left;
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+      float: none;
+    }
     .main-slide {
       .slide {
         img {
@@ -112,6 +130,10 @@ export default {
           margin: 0 auto;
           height: 600px !important;
           width: auto !important;
+          @media only screen and (max-width: 600px) {
+            width: 100%;
+            height: auto!important;
+          }
         }
       }
     }
@@ -129,12 +151,16 @@ export default {
   .models-info {
     width: 30%;
     float: right;
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+      float: none;
+    }
     h2 {
       font-size: 35px;
     }
-    p{
+    p {
       text-align: left;
-      span{
+      span {
         display: block;
         width: 150px;
         font-weight: bold;
