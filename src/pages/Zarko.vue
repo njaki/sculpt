@@ -3,7 +3,7 @@
     <div class="models-wrap clearfix">
       <div class="models-gallery">
         <ClientOnly>
-          <agile ref="main" class="main-slide" :fade="true"  :navButtons="true">
+          <agile ref="main" class="main-slide" :fade="true"  :navButtons="true" :dots="false">
             <div class="slide">
               <g-image src="~/assets/img/zarko/1.jpg" />
             </div>
@@ -60,14 +60,14 @@
         </ClientOnly>
       </div>
       <div class="models-info">
-        <h2>Maxim</h2>
-        <p><span>HEIGHT:</span>187 </p>
-        <p><span>CHEST:</span>102 </p>
-        <p><span>WAIST:</span>82 </p>
-        <p><span>HIPS:</span>100 </p>
-        <p><span>SHOES:</span>44 </p>
-        <p><span>HAIR:</span>Blonde </p>
-        <p><span>EYES:</span>Blue </p>
+        <h2>Zarko</h2>
+        <p><span>HEIGHT:</span>186 </p>
+        <p><span>CHEST:</span>98 </p>
+        <p><span>WAIST:</span>79 </p>
+        <p><span>HIPS:</span>94 </p>
+        <p><span>SHOES:</span>43 </p>
+        <p><span>HAIR:</span>Black </p>
+        <p><span>EYES:</span>Brown </p>
       </div>
     </div>
   </Layout>
