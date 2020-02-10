@@ -120,7 +120,7 @@ export default {
     width: 70%;
     float: left;
     @media only screen and (max-width: 600px) {
-      width: 100%;
+      width: 100%!important;
       float: none;
     }
     .main-slide {
@@ -152,7 +152,7 @@ export default {
     width: 30%;
     float: right;
     @media only screen and (max-width: 600px) {
-      width: 100%;
+      width: 100%!important;
       float: none;
     }
     h2 {
