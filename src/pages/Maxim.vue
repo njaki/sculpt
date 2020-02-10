@@ -116,14 +116,7 @@ export default {
 
 <style lang="scss">
 .models-wrap {
-  .models-gallery {
-    width: 70%;
-    float: left;
-    @media only screen and (max-width: 600px) {
-      width: 100% !important;
-      float: none;
-    }
-    .main-slide {
+  .main-slide {
       .slide {
         img {
           display: block;
@@ -137,6 +130,14 @@ export default {
         }
       }
     }
+  .models-gallery {
+    width: 70%;
+    float: left;
+    @media only screen and (max-width: 600px) {
+      width: 100% !important;
+      float: none;
+    }
+    
     .nav {
       .slide {
         img {
