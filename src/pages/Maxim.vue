@@ -120,7 +120,7 @@ export default {
     width: 70%;
     float: left;
     @media only screen and (max-width: 600px) {
-      width: 100%!important;
+      width: 100% !important;
       float: none;
     }
     .main-slide {
@@ -132,7 +132,7 @@ export default {
           width: auto !important;
           @media only screen and (max-width: 600px) {
             width: 100%;
-            height: 100%!important;
+            height: 100% !important;
           }
         }
       }
@@ -152,7 +152,7 @@ export default {
     width: 30%;
     float: right;
     @media only screen and (max-width: 600px) {
-      width: 100%!important;
+      width: 100% !important;
       float: none;
     }
     h2 {
@@ -167,6 +167,12 @@ export default {
         margin-right: 40px;
       }
     }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .models-wrap .models-gallery .main-slide .slide img {
+    width: 100%;
+    height: auto !important;
   }
 }
 </style>
