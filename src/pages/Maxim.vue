@@ -132,7 +132,7 @@ export default {
           width: auto !important;
           @media only screen and (max-width: 600px) {
             width: 100%;
-            height: auto!important;
+            height: 100%!important;
           }
         }
       }

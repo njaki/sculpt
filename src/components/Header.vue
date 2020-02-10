@@ -23,7 +23,7 @@
       <g-link to="/men">/ men /</g-link>
       <g-link to="/women">/ women /</g-link>
       <g-link to="/plus-size">/ plus size /</g-link>
-      <g-link to="/become-model">/ become model /</g-link>
+      <g-link to="/become-a-model">/ become model /</g-link>
     </div>
   </header>
 </template>
