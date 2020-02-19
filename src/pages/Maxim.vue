@@ -5,73 +5,73 @@
         <ClientOnly>
           <agile ref="main" class="main-slide" :fade="true" :navButtons="true" :dots="false">
             <div class="slide">
-              <g-image src="~/assets/img/maxim/1.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/1.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/2.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/2.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/3.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/3.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/4.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/4.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/5.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/5.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/6.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/6.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/7.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/7.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/8.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/8.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/9.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/9.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/10.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/10.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/11.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/11.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/12.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/12.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/13.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/13.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/14.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/14.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/15.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/15.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/16.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/16.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/17.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/17.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/18.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/18.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/19.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/19.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/20.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/20.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/21.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/21.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/22.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/22.jpg" />
             </div>
             <div class="slide">
-              <g-image src="~/assets/img/maxim/23.jpg" />
+              <g-image class="mobile" src="~/assets/img/maxim/23.jpg" />
             </div>
           </agile>
         </ClientOnly>
@@ -117,19 +117,21 @@ export default {
 <style lang="scss">
 .models-wrap {
   .main-slide {
-      .slide {
-        img {
-          display: block;
-          margin: 0 auto;
-          height: 600px !important;
-          width: auto !important;
-          @media only screen and (max-width: 600px) {
+    .slide {
+      img {
+        display: block;
+        margin: 0 auto;
+        height: 600px !important;
+        width: auto !important;
+        @media only screen and (max-width: 600px) {
+          &.mobile {
             width: 100%;
             height: 100% !important;
           }
         }
       }
     }
+  }
   .models-gallery {
     width: 70%;
     float: left;
@@ -137,7 +139,7 @@ export default {
       width: 100% !important;
       float: none;
     }
-    
+
     .nav {
       .slide {
         img {

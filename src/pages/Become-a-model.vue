@@ -62,7 +62,7 @@
             <input type="text" name="hips" />
           </div>
           <p style="margin-top: 30px;">4 photos, up to 1mb per photo</p>
-          <input class="add-image" type="files[]" name="file" multiple />
+          <input class="add-image" type="file" name="photo" multiple>
           <button class="bcm-btn" type="submit">Send</button>
         </form>
       </div>
