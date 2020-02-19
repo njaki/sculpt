@@ -75,16 +75,7 @@ export default {
   .models-gallery {
     width: 70%;
     float: left;
-    .main-slide {
-      .slide {
-        img {
-          display: block;
-          margin: 0 auto;
-          height: 600px !important;
-          width: auto !important;
-        }
-      }
-    }
+    
     .nav {
       .slide {
         img {

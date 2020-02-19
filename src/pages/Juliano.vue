@@ -5,6 +5,9 @@
         <ClientOnly>
           <agile ref="main" class="main-slide" :fade="true" :navButtons="true" :dots="false">
             <div class="slide">
+              <g-image src="~/assets/img/juliano/12.jpg" />
+            </div>
+            <div class="slide">
               <g-image src="~/assets/img/juliano/1.jpg" />
             </div>
             <div class="slide">
@@ -37,9 +40,7 @@
             <div class="slide">
               <g-image src="~/assets/img/juliano/11.jpg" />
             </div>
-            <div class="slide">
-              <g-image src="~/assets/img/juliano/12.jpg" />
-            </div>
+            
             <div class="slide">
               <g-image src="~/assets/img/juliano/13.jpg" />
             </div>
@@ -90,16 +91,7 @@ export default {
   .models-gallery {
     width: 70%;
     float: left;
-    .main-slide {
-      .slide {
-        img {
-          display: block;
-          margin: 0 auto;
-          height: 600px !important;
-          width: auto !important;
-        }
-      }
-    }
+    
     .agile__actions {
         position:absolute;
         top:50%;

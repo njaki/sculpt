@@ -5,6 +5,9 @@
         <ClientOnly>
           <agile ref="main" class="main-slide" :fade="true" :navButtons="true" :dots="false">
             <div class="slide">
+              <g-image class="mobile" src="~/assets/img/maxim/21.jpg" />
+            </div>
+            <div class="slide">
               <g-image class="mobile" src="~/assets/img/maxim/1.jpg" />
             </div>
             <div class="slide">
@@ -64,9 +67,7 @@
             <div class="slide">
               <g-image class="mobile" src="~/assets/img/maxim/20.jpg" />
             </div>
-            <div class="slide">
-              <g-image class="mobile" src="~/assets/img/maxim/21.jpg" />
-            </div>
+            
             <div class="slide">
               <g-image class="mobile" src="~/assets/img/maxim/22.jpg" />
             </div>
@@ -116,22 +117,7 @@ export default {
 
 <style lang="scss">
 .models-wrap {
-  .main-slide {
-    .slide {
-      img {
-        display: block;
-        margin: 0 auto;
-        height: 600px !important;
-        width: auto !important;
-        @media only screen and (max-width: 600px) {
-          &.mobile {
-            width: 100%;
-            height: 100% !important;
-          }
-        }
-      }
-    }
-  }
+  
   .models-gallery {
     width: 70%;
     float: left;
