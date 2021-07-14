@@ -7,11 +7,11 @@
         </g-link>
       </div>
       <div class="sh-menu-wrap">
-        <g-link to="/about-us">about us</g-link>
-        <g-link to="/men">men</g-link>
-        <g-link to="/women">women</g-link>
+        <g-link to="/about-us">about us/o nama</g-link>
+        <g-link to="/men">men/muškarci</g-link>
+        <g-link to="/women">women/devojke</g-link>
         <g-link>plus size</g-link>
-        <g-link to="/become-a-model">become a model</g-link>
+        <g-link to="/become-a-model">become a model/postani model</g-link>
       </div>
       <div class="sc-mobile-opener" v-on:click="menuClick">
         <span>menu</span>
@@ -19,11 +19,11 @@
       </div>
     </div>
     <div class="mobile-menu">
-      <g-link to="/about-us">/ about us /</g-link>
-      <g-link to="/men">/ men /</g-link>
-      <g-link to="/women">/ women /</g-link>
+      <g-link to="/about-us">/ about us-o nama /</g-link>
+      <g-link to="/men">/ men - muškarci /</g-link>
+      <g-link to="/women">/ women - devojke /</g-link>
       <g-link to="/plus-size">/ plus size /</g-link>
-      <g-link to="/become-a-model">/ become model /</g-link>
+      <g-link to="/become-a-model">/ become model - postani model /</g-link>
     </div>
   </header>
 </template>

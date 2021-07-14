@@ -3,19 +3,20 @@
     <div class="about-wrap-main">
       <div class="about-inner clearfix">
         <div class="about-img">
-          <g-image src="~/assets/img/about-us.jpg" />
+          <g-image src="~/assets/img/zarko-about-us.jpg" />
         </div>
 
         <div class="about-text">
-          <h1>about us.</h1>
+          <h1>about us./ o nama</h1>
           <p>
-            <b>sculpt.</b> is a new international agency for scouting models and placing them with model agencies worldwide.
-          </p>
-          <p>
-            Our team is consisted of former professional models with the experience of more than
-            <b>twenty successful years</b> in the industry who decided to guide young women and men into their way of becoming new faces of some of the best agencies and brands around the world. Our models are, at the moment, mostly located across Asia and Europe.
-            <b>Join us and let’s grow together.</b>
-          </p>
+            <b>Sculpt. scouting</b> je internacionalna skauting agencija koja se bavi pronalaženjem novih modela, razvojem njihovih karijera i internacionalnim angažmanom u saradnji sa modnim agencijama širom sveta.</p>
+            <p> <b>Sculpt.</b> tim agenata sastoji se od bivših i aktivnih profesionalnih modela sa višegodišnjim iskustvom uspešnog poslovanja u modnoj industriji, što u Srbiji tako i u inostranstvu.</p> 
+            <p> Osnivač <b>Sculpt. scouting</b> agencije je Žarko Živojinović, internacionalni model, koji iza sebe ima iskustvo od četrnaest godina rada u više od trinaest zemalja širom sveta sa nekim od najvećih i najpopularnijih svetskih brendova.</p>
+          
+            <p><b>Sculpt. scouting</b> is an international agency whose focus is on scouting new models, building their careers and placing them with model agencies worldwide</p>
+            <p> <b>Sculpt.</b>team of agents is consisted of former and active professional models with multi-year experience of successful  work in fashion business worldwide.</p> 
+            <p> The founder of <b>Sculpt. scouting</b> agency is Zarko Zivojinovic, international model with over fourteen years working experience in more than thirteen different countries all over the world with some of the biggest and most popular brands.</p>
+            <h3>Join us and let’s grow together.</h3>
         </div>
       </div>
     </div>
@@ -56,10 +57,12 @@ export default {
     .about-img {
       width: 40%;
       float: left;
+      padding: 0 5%;
       @media only screen and (max-width: 600px) {
         width: 100%;
         float: none;
         margin-top: 50px;
+        padding: 0;
       }
     }
   }

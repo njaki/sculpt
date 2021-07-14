@@ -7,7 +7,10 @@
           international models <br>scouting agency 
         </h1>
         <h2>News</h2>
-        <p>Agencija Sculpt trenutno traži nova lica na teritoriji Srbije. <br>Informacije o kastinzima će uskoro biti objavljene.</p>
+        <p>Agencija Sculpt. će organizovati kasting za nova lica u Zoom studiju, Dobračina 76 u Beogradu, 25. jula od 15-17h.</p>
+        <h4>Kriterijumi</h4>
+        <p>Za devojke: godine 16-23, visina 173-180cm</p>
+        <p>Za muškarce: godine 16-25, visina 184-190cm</p>
       </div>
     </div>
   </Layout>
