@@ -7,7 +7,7 @@
         </div>
 
         <div class="about-text">
-          <h1>about us./ o nama</h1>
+          <h1>about us / o nama</h1>
           <p>
             <b>Sculpt. scouting</b> je internacionalna skauting agencija koja se bavi pronalaženjem novih modela, razvojem njihovih karijera i internacionalnim angažmanom u saradnji sa modnim agencijama širom sveta.</p>
             <p> <b>Sculpt.</b> tim agenata sastoji se od bivših i aktivnih profesionalnih modela sa višegodišnjim iskustvom uspešnog poslovanja u modnoj industriji, što u Srbiji tako i u inostranstvu.</p> 
